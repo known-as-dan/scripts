@@ -5,5 +5,7 @@ bash <(curl -s https://raw.githubusercontent.com/known-as-dan/scripts/master/set
 ```
 **create_user.sh:**
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/known-as-dan/scripts/master/setup/create_user.sh) <username>
+bash <(curl -s https://raw.githubusercontent.com/known-as-dan/scripts/master/setup/create_user.sh
+# format
+bash script <username>
 ```
