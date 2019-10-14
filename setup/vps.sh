@@ -50,11 +50,11 @@ apt update
 
 # Updating packages
 message " => Updating packages."
-apt upgrade
+apt upgrade -y
 
 # Removing all unnecessary packages
 message " => Removing all unnecessary packages."
-apt autoremove
+apt autoremove -y
 
 # Rebooting
 alert " => Rebooting..."
