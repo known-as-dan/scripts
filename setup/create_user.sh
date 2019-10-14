@@ -18,9 +18,11 @@ function alert {
 username=$1
 username_length=${#username}
 
-if [username_length <= 0]; then
+if [username_length <= 0]
+then
 	alert "Invalid username!"
 	return
+fi
 
 message " => Creating user: '${username}'."
 
