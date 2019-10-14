@@ -27,7 +27,7 @@ message " => Giving 'sudo' privileges to '${username}'."
 usermod -aG sudo ${username}
 
 # Transfering current SSH key to new user
-message " => Transfering current SSH key to new user."
+message " => Transfering current SSH keys to new user."
 rsync --archive --chown=${username}:${username} ~/.ssh /home/${username}
 
 # Setting up basic firewall
