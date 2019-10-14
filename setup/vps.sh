@@ -22,7 +22,7 @@ message " => Creating user: '${username}'."
 adduser ${username}
 
 # Giving user sudo privileges
-message " => Giving user 'sudo' privileges to '${username}'."
+message " => Giving 'sudo' privileges to '${username}'."
 
 usermod -aG sudo ${username}
 
@@ -43,3 +43,21 @@ alert " => Listing firewall status, please inspect..."
 ufw status
 alert " => Resuming in 5 seconds..."
 sleep 5s
+
+# Updating sources
+message " => Updating sources."
+apt update
+
+# Updating packages
+message " => Updating packages."
+apt upgrade
+
+# Removing all unnecessary packages
+message " => Removing all unnecessary packages."
+apt autoremove
+
+# Rebooting
+alert " => Rebooting..."
+alert "You have 10 seconds to stop this using the "ctrl + c" key-combination(KeyboardInterrupt)!"
+sleep 10s
+reboot
