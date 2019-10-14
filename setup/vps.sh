@@ -15,7 +15,7 @@ function alert {
 }
 
 # Creating main user
-username="cloud"
+username="main"
 
 message " => Creating user: '${username}'."
 
@@ -58,6 +58,6 @@ apt autoremove -y
 
 # Rebooting
 alert " => Rebooting..."
-alert "You have 10 seconds to stop this using the "ctrl + c" key-combination(KeyboardInterrupt)!"
+alert "You have 10 seconds to stop this using the 'ctrl + c' key-combination(KeyboardInterrupt)!"
 sleep 10s
 reboot
