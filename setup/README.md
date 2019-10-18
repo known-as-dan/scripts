@@ -1,7 +1,7 @@
 # Usage
 **personal.sh:**
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/known-as-dan/scripts/master/setup/personal.sh)
+bash <(curl -s https://raw.githubusercontent.com/known-as-dan/scripts/master/setup/pop.sh)
 ```
 **vps.sh:**
 ```bash
