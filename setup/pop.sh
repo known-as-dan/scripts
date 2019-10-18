@@ -32,8 +32,8 @@ sudo apt install gnome-tweak-tool -y
 
 # Installing Google Chrome
 message " => Installing Google Chrome."
-chrome_path = "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
-file_name = "google-chrome-stable_current_amd64.deb"
+chrome_path="https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
+file_name="google-chrome-stable_current_amd64.deb"
 wget $chrome_path
 sudo dpkg -i $file_name
 rm $file_name
