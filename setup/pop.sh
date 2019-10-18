@@ -1,4 +1,3 @@
-
 # Colors
 GREEN=`tput setaf 2`
 RED=`tput setaf 1`
