@@ -24,11 +24,11 @@ sudo apt upgrade -y
 
 # Installing Nvidia driver
 message " => Installing Nvidia driver."
-sudo apt install nvidia-driver-435
+sudo apt install nvidia-driver-435 -y
 
 # Installing Gnome-Tweak-Tool
 message " => Installing Gnome-Tweak-Tool."
-sudo apt install gnome-tweak-tool
+sudo apt install gnome-tweak-tool -y
 
 # Installing Google Chrome
 message " => Installing Google Chrome."
@@ -40,11 +40,11 @@ rm $file_name
 
 # Installing Spotify
 message " => Installing Spotify."
-sudo apt install spotify-client
+sudo apt install spotify-client -y
 
 # Installing Timeshift
 message " => Installing Timeshift."
-sudo apt install timeshift
+sudo apt install timeshift -y
 
 # Removing all unnecessary packages
 message " => Removing all unnecessary packages."
