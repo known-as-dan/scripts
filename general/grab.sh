@@ -1,18 +1,18 @@
 if [ "$1" != "" ]
 then
-	name="$1.jpg"
+	name="$1.png"
 else
-	name="%d-%m-%M-%S.jpg"
+	name=`date +%d-%m-%M-%S.png`
 fi
 
-image=`scrot -s $name -e 'echo $f'`
+maim -s $name
 
 key="~/.ssh/id_rsa"
 machine="file@machine"
 save_path="~/files"
 
-scp -i $key $image $machine:$save_path
+scp -i $key $name $machine:$save_path
 
-rm $image
+rm $name
 
-echo "https://file.gotoindex.com/$image"
+echo "https://file.gotoindex.com/$name"
