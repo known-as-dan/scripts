@@ -14,3 +14,5 @@ save_path="~/files"
 scp -i $key $image $machine:$save_path
 
 rm $image
+
+echo "https://file.gotoindex.com/$name"
