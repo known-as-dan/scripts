@@ -46,10 +46,6 @@ sudo apt install spotify-client -y
 message " => Installing Timeshift."
 sudo apt install timeshift -y
 
-# Instaling "Fira Code" font
-message " => Installing 'Fira Code' font"
-sudo apt install fonts-firacode
-
 # Removing all unnecessary packages
 message " => Removing all unnecessary packages."
 sudo apt autoremove -y
