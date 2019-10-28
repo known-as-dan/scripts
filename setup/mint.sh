@@ -24,7 +24,7 @@ sudo apt upgrade -y
 
 # Installing Nvidia driver
 message " => Installing Nvidia driver."
-sudo apt install nvidia-driver-435 -y
+sudo apt install nvidia-driver-430 -y
 
 # Installing Gnome-Tweak-Tool
 message " => Installing Gnome-Tweak-Tool."
@@ -43,7 +43,7 @@ message " => Installing Spotify."
 curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 sudo apt update
-sudo apt install spotify-client
+sudo apt install spotify-client -y
 
 
 # Installing Timeshift
