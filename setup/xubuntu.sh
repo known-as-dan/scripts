@@ -40,7 +40,11 @@ rm $file_name
 
 # Installing Spotify
 message " => Installing Spotify."
-sudo snap install spotify
+curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt update
+sudo apt install spotify-client
+
 
 # Installing Timeshift
 message " => Installing Timeshift."
