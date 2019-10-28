@@ -1,7 +1,7 @@
 # Usage
-**xubuntu.sh:**
+**mint.sh:**
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/known-as-dan/scripts/master/setup/xubuntu.sh)
+bash <(curl -s https://raw.githubusercontent.com/known-as-dan/scripts/master/setup/mint.sh)
 ```
 **pop.sh:**
 ```bash
