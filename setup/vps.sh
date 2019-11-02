@@ -52,6 +52,10 @@ apt update
 message " => Updating packages."
 apt upgrade -y
 
+# Installing Timeshift
+message " => Installing Timeshift."
+apt install timeshift -y
+
 # Removing all unnecessary packages
 message " => Removing all unnecessary packages."
 apt autoremove -y
