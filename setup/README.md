@@ -12,11 +12,11 @@ bash <(curl -s https://raw.githubusercontent.com/known-as-dan/scripts/master/set
 bash <(curl -s https://raw.githubusercontent.com/known-as-dan/scripts/master/setup/pop.sh)
 ```
 **vps.sh:**
+**NOTICE:** Meant to be run using the **root user**
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/known-as-dan/scripts/master/setup/vps.sh)
 ```
 **create_user.sh:**   
-**NOTICE:** Meant to be run using the **root user**
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/known-as-dan/scripts/master/setup/create_user.sh)
 # format
