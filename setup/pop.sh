@@ -24,7 +24,7 @@ sudo apt upgrade -y
 
 # Installing Nvidia driver
 message " => Installing Nvidia driver."
-sudo apt install nvidia-driver-435 -y
+sudo apt install nvidia-driver-440 -y
 
 # Installing Gnome-Tweak-Tool
 message " => Installing Gnome-Tweak-Tool."
