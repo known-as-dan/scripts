@@ -30,10 +30,6 @@ sudo apt install nvidia-driver-440 -y
 message " => Installing Gnome-Tweak-Tool."
 sudo apt install gnome-tweak-tool -y
 
-# Installing Gnome App Indicator Extension
-message " => Installing Gnome App Indicator Extension."
-sudo apt install gnome-shell-extension-appindicator
-
 # Installing Google Chrome
 message " => Installing Google Chrome."
 chrome_path="https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
