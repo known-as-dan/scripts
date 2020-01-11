@@ -26,10 +26,6 @@ sudo apt upgrade -y
 message " => Installing Nvidia driver."
 sudo apt install nvidia-driver-435 -y
 
-# Installing Gnome-Tweak-Tool
-message " => Installing Gnome-Tweak-Tool."
-sudo apt install gnome-tweak-tool -y
-
 # Installing Google Chrome
 message " => Installing Google Chrome."
 chrome_path="https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
