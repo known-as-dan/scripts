@@ -1,4 +1,8 @@
 # Usage
+**ubuntu.sh:**
+```bash
+bash <(curl -s https://raw.githubusercontent.com/known-as-dan/scripts/master/setup/ubuntu.sh)
+```
 **fedora.sh:**
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/known-as-dan/scripts/master/setup/fedora.sh)
